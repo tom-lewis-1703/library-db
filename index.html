@@ -13,6 +13,17 @@
     </div>
     <div id="main-content">
         <button id="add-btn">+ Add Book</button>
+        <div id="book-collection">
+            <table>
+                <tr>
+                    <th>Author</th>
+                    <th>Book Title</th>
+                    <th>Number of Pages</th>
+                    <th>Read</th>
+                    <th>Remove Book</th>
+                </tr>
+            </table>
+        </div>
     </div>
     <div id="form-modal">
         <button id="close-btn">&times;</button>
@@ -24,8 +35,8 @@
             <label for="pg-numbers">Number of Pages:</label>
             <input type="number" id="pg-numbers" name="pg-numbers">
             <span id="read-op">
-                <label for="read-option" id="read-label">Have you read it:</label>
-                <input type="checkbox">
+                <label for="read-option" id="read-label">Have you read it?</label>
+                <input type="checkbox" id="read">
             </span>
             <input id="submit-btn" type="submit">
         </form>

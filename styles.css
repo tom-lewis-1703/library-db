@@ -25,6 +25,44 @@ body {
     flex-direction: column;
     align-items: center;
     height: 85vh;
+    width: 100vw;
+    color: aliceblue;
+}
+
+#book-collection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    width: 60%;
+    box-shadow: 0 6px 12px black;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    border: 2px solid white;
+    background-color: #252525;
+}
+
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid rgb(216, 216, 216);
+}
+
+th {
+    font-size: 1.75rem;
+    border-bottom: 2px solid rgb(217, 217, 217);
+    background-color: #202020;
+}
+
+td {
+    font-size: 1.25rem;
+}
+
+tr:hover {
+    background-color: #191919;
 }
 
 #form-modal {
@@ -78,6 +116,21 @@ body {
     margin-left: 30px;
 }
 
+.remove-btn {
+    font-size: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: #545454;
+    transition: all 0.2s ease-in;
+    border: none;
+    box-shadow: 0 3px 6px black;
+}
+
+.remove-btn:hover {
+    background-color: red;
+}
+
 #add-btn:hover, #submit-btn:hover {
     background-color: #094a4c;
 }
@@ -110,6 +163,10 @@ input[type="text"]::placeholder, input[type="number"]::placeholder {
     font-style: italic;
 }
 
+#read:hover {
+    cursor: pointer;
+}
+
 label {
     display: block;
 }
@@ -121,4 +178,13 @@ label {
 
 #auth-label {
     margin-top: 65px;
+}
+
+.read-cell {
+    cursor: pointer;
+    transition: all .1s ease-in;
+}
+
+.read-cell:hover {
+    background-color: #383838;
 }
