@@ -32,5 +32,5 @@ A simple web application to manage your personal book library. Add, view, and re
 4. **Toggling Read Status:**
    - Click on the "Read" status cell of any book to toggle between "Yes" and "No".
 
-License
+
 This project is open source and available under the MIT License.
